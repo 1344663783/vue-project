@@ -1,0 +1,37 @@
+{
+  "id": "1827046",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1137788",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "1189888",
+      "name": "房产",
+      "font_class": "fangchan",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "9509954",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "12684936",
+      "name": "锁",
+      "font_class": "icon_huabanfuben",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}
