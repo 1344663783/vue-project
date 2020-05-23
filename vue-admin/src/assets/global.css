@@ -7,3 +7,6 @@ html,body,#app{
     margin-bottom: 10px;
     font-size: 14px;
 }
+.el-table{
+    margin-top: 15px;
+}
