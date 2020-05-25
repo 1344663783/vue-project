@@ -17,11 +17,22 @@
         </el-row>
 
         <el-table :data="userList" border>
+          <el-table-column type="index"></el-table-column>
           <el-table-column prop="username" label="用户名"></el-table-column>
           <el-table-column prop="sex" :formatter="formatSex" label="性别"></el-table-column>
           <el-table-column prop="age" label="年龄"></el-table-column>
           <el-table-column prop="city" label="所在城市"></el-table-column>
+          <el-table-column  label="操作">
+            <template>
+              <el-button type="primary" icon="el-icon-edit"></el-button>
+              <el-button type="danger" icon="el-icon-delete"></el-button>
+              <el-tooltip class="item" effect="dark" content="分配角色" placement="top" :enterable="false">
+                <el-button type="warning" icon="el-icon-setting"></el-button>
+              </el-tooltip>
+            </template>
+          </el-table-column>
         </el-table>
+
       </el-card>
 
     </div>
