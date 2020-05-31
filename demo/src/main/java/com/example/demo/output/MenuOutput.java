@@ -17,6 +17,10 @@ public class MenuOutput {
 
     private String icon;
 
+    private String level;
+
+    private Integer parentId;
+
     private List<MenuOutput> children;
 
 

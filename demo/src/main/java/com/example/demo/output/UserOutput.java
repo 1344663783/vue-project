@@ -15,4 +15,5 @@ public class UserOutput {
 
     private String city;
 
+    private String roleName;
 }
